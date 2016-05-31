@@ -6,14 +6,14 @@ public class RemoteSource{
 	
 	private String source;
 	private String fileRegex;
-    private String host;
-    private String userName;
-    private String password;
+        private String host;
+        private String userName;
+        private String password;
 	private String privateKeyFile;
 	private String moveTo;
 	private String fileType;
 	
-    @JsonProperty
+        @JsonProperty
    	public String getFileType() {
 		return fileType;
 	}
@@ -44,7 +44,7 @@ public class RemoteSource{
 	}
 	
 	@JsonProperty
-    public String getMoveTo() {
+        public String getMoveTo() {
 		return moveTo;
 	}
 	
